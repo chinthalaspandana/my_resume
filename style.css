@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Lighter background */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 40px 0; /* Reduced padding */
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1519389950473-47a04bc9725c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Updated background */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+    .hero h1 {
+        font-size: 3em;
+    margin-bottom: 10px;
+    }
+
+.hero .title {
+    font-size: 1.5em;
+    font-weight: 300;
+    }
+
+.hero .contact-info {
+    margin-top: 20px;
+}
+
+.hero .contact-info a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.hero .contact-info a i {
+    margin-right: 5px;
+}
+
+/* Section Styles */
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color: #e8491d;
+    border-bottom: 2px solid #e8491d;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Education Styles */
+.education-item {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    border-left: 5px solid #e8491d;
+    position: relative;
+}
+
+.education-item:before {
+    content: '\f19d';
+    font-family: FontAwesome;
+    position: absolute;
+    left: -15px;
+    top: 0;
+    color: #e8491d;
+    font-size: 1.2em;
+}
+
+/* Project Styles */
+.project-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
+/* Skills Styles */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill-category {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.skill-category h3 {
+    color: #e8491d;
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin-bottom: 5px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .hero {
+        padding: 60px 0;
+    }
+
+    .hero h1 {
+        font-size: 2.5em;
+    }
+
+    .skill-category {
+        width: 100%;
+    }
+}
+
